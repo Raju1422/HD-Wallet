@@ -1,0 +1,122 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  max-width: 1200px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.main-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.right-menu {
+  flex: 1;
+  background-color: #f7f9fc;
+  padding: 20px;
+  border-left: 2px solid #ddd;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.generate-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.generate-button:hover {
+  background-color: #0056b3;
+}
+
+.mnemonic-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mnemonic-text {
+  flex: 1;
+  margin-right: 10px;
+  font-size: 1rem;
+  word-break: break-word;
+  color: #333;
+}
+
+.copy-button {
+  padding: 5px 10px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.copy-button:hover {
+  background-color: #218838;
+}
+
+.copied-text {
+  margin-top: 10px;
+  color: #333;
+  font-size: 1rem;
+}
+.wallet-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adds space between the buttons */
+  margin-top: 20px;
+}
+
+.wallet-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.wallet-button:hover {
+  background-color: #0056b3;
+}
